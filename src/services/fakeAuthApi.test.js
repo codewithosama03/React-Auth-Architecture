@@ -1,5 +1,6 @@
-import { fakeLogin } from "./fakeAuthApi";
+// import { fakeLogin } from "./fakeAuthApi";
 import { describe, test, expect, vi } from "vitest";
+import { fakeLogin } from "./FakeAuthApi";
 
 
 //  Test 1 — Admin Login Works

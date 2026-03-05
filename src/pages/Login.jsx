@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { fakeLogin } from "../services/fakeAuthApi";
+import { fakeLogin } from "../services/FakeAuthApi";
 import { useAuth } from "../auth/useAuth";
 import { useNavigate } from "react-router-dom";
 
