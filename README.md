@@ -1,6 +1,6 @@
 ## React Auth Architecture
 
- React Authentication Architecture (Frontend Learning Project)
+React Authentication Architecture (Frontend Learning Project)
 
 ## About
 
@@ -35,6 +35,8 @@ Authentication context using Context API
 Clean routing architecture using React Router
 
 Simple dashboard interface for authenticated users
+
+Unit testing for authentication logic and components
 
 ## Authentication Flow
 
@@ -100,6 +102,32 @@ Unauthorized access redirects the user to an Unauthorized page.
 
 This logic is implemented using a RoleRoute component.
 
+## Testing
+
+Basic unit tests are included to verify important authentication logic and component behavior.
+
+Testing was implemented using:
+
+Vitest
+
+React Testing Library
+
+The following parts of the application are tested:
+
+Login component rendering and interaction
+
+AuthContext authentication logic
+
+ProtectedRoute access control
+
+RoleRoute role-based authorization
+
+Fake authentication API behavior
+
+These tests help ensure that authentication flow, routing protection, and role restrictions behave correctly.
+
+Run tests using:
+
 ## Core Architecture
 
 AuthContext
@@ -140,6 +168,10 @@ Tailwind CSS
 
 Vite
 
+Vitest
+
+React Testing Library
+
 ## Learning Outcomes
 
 Understanding authentication architecture in React
@@ -155,6 +187,8 @@ Handling session persistence
 Structuring scalable React applications
 
 Building production-style routing architecture
+
+Writing basic unit tests for React components and authentication logic
 
 ## Future Improvements
 
