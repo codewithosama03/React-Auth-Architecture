@@ -1,8 +1,8 @@
-React Auth Architecture
+## React Auth Architecture
 
-React Authentication Architecture (Frontend Learning Project)
+ React Authentication Architecture (Frontend Learning Project)
 
-About
+## About
 
 React Auth Architecture is a frontend-focused authentication system built using React.
 
@@ -12,7 +12,7 @@ Everything is simulated on the frontend to help understand the architecture and 
 
 This project focuses on structure, logic, and scalability rather than UI complexity.
 
-Features
+## Features
 
 Login simulation with mock API
 
@@ -36,7 +36,7 @@ Clean routing architecture using React Router
 
 Simple dashboard interface for authenticated users
 
-Authentication Flow
+## Authentication Flow
 
 The authentication process follows a simplified real-world structure.
 
@@ -56,7 +56,7 @@ Role-based routes verify if the user has permission to access specific pages
 
 If authentication fails or the token expires, the user is redirected to the login page
 
-Token Handling (Simulation)
+## Token Handling (Simulation)
 
 The project simulates how authentication tokens work in real applications.
 
@@ -78,7 +78,7 @@ If the token has expired, the user is automatically logged out
 
 This mimics real authentication behavior without requiring a backend.
 
-Protected Routes
+## Protected Routes
 
 Protected routes ensure that only authenticated users can access certain parts of the application.
 
@@ -86,7 +86,7 @@ If a user tries to access a protected page without being authenticated, they are
 
 This logic is handled using a custom ProtectedRoute component.
 
-Role-Based Access Control
+## Role-Based Access Control
 
 Role-based routing restricts certain pages to specific user roles.
 
@@ -99,7 +99,8 @@ Regular users cannot access admin-only pages
 Unauthorized access redirects the user to an Unauthorized page.
 
 This logic is implemented using a RoleRoute component.
-Core Architecture
+
+## Core Architecture
 
 AuthContext
 
@@ -125,7 +126,7 @@ AppRouter
 
 Centralized routing configuration.
 
-Technologies Used
+## Technologies Used
 
 React
 
@@ -139,7 +140,7 @@ Tailwind CSS
 
 Vite
 
-Learning Outcomes
+## Learning Outcomes
 
 Understanding authentication architecture in React
 
@@ -155,7 +156,7 @@ Structuring scalable React applications
 
 Building production-style routing architecture
 
-Future Improvements
+## Future Improvements
 
 Real backend authentication integration
 
@@ -173,7 +174,7 @@ Authentication state management using Redux Toolkit
 
 Full dashboard functionality
 
-Notes
+## Notes
 
 This project focuses on frontend authentication architecture.
 
